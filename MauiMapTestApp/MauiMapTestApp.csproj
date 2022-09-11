@@ -46,4 +46,10 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Esri.ArcGISRuntime.Maui" Version="100.15.0-preview4" />
+	  <PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
+	  <PackageReference Include="ReactiveUI.Maui" Version="18.3.1" />
+	</ItemGroup>
+
 </Project>
